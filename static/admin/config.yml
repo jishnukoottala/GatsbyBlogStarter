@@ -10,6 +10,7 @@ collections:
     folder: src/posts
     create: true
     fields:
+      - { name : path, label: Path }
       - { name : title, label: Title }
       - { name: date, label: Created At, widget: date }
       - { name : body, label: Post, widget: markdown}
